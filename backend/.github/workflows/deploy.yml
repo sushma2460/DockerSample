@@ -21,5 +21,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t mupparajusushmachowdary/dockersample-backend:latest ./backend
-          docker push mupparajusushmachowdary/dockersample-backend:latest
+          docker build -t your-dockerhub-username/dockersample-backend:latest ./backend
+          docker push your-dockerhub-username/dockersample-backend:latest
